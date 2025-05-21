@@ -42,7 +42,7 @@ After making these changes, clear any existing tokens:
 
 ```bash
 # Remove the existing token file
-rm /path/to/your/token.json
+rm /path/to/your/app_token.json
 
 # Restart Claude Desktop
 # The authentication flow will start fresh

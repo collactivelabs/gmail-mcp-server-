@@ -61,7 +61,7 @@ pip install -e .
         "--creds-file-path",
         "/path/to/your/credentials.json",
         "--token-path",
-        "/path/to/store/token.json"
+        "/path/to/store/app_token.json"
       ]
     }
   }
@@ -96,7 +96,7 @@ Try these commands in Claude:
 
 ### Permission denied errors
 ```bash
-chmod 600 /path/to/your/token.json
+chmod 600 /path/to/your/app_token.json
 ```
 
 ### Can't find unread emails

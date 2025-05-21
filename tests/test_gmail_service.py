@@ -12,7 +12,7 @@ class TestGmailService(unittest.TestCase):
     def setUp(self):
         """Set up test fixtures"""
         self.creds_file_path = "/tmp/test_creds.json"
-        self.token_path = "/tmp/test_token.json"
+        self.token_path = "/tmp/test_app_token.json"
         
         # Mock the Google API client
         self.mock_service = MagicMock()

@@ -96,7 +96,7 @@ If you encounter decryption errors after moving between machines:
 #### Permission Errors
 Ensure proper permissions on token files:
 ```bash
-chmod 600 /path/to/your/token.json
+chmod 600 /path/to/your/app_token.json
 ```
 
 ### Getting Help
